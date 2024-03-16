@@ -34,5 +34,5 @@ public:
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const;
 
 	UFUNCTION(BlueprintCallable, Category = "BaseCharacter")
-	void AquireAbility(TSubclassOf<UGameplayAbility> Ability);
+	void AquireAbility(TSubclassOf<UBaseGameplayAbility> Ability);
 };

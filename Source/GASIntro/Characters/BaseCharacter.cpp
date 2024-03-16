@@ -3,6 +3,8 @@
 
 #include "BaseCharacter.h"
 #include "AbilitySystemComponent.h"
+#include "GASIntro/Gameplay/BaseGameplayAbility.h"
+
 // Sets default values
 ABaseCharacter::ABaseCharacter()
 {
@@ -37,7 +39,7 @@ UAbilitySystemComponent* ABaseCharacter::GetAbilitySystemComponent() const
 	return AbilitySystemComponent;
 }
 
-void ABaseCharacter::AquireAbility(TSubclassOf<UGameplayAbility> Ability)
+void ABaseCharacter::AquireAbility(TSubclassOf<UBaseGameplayAbility> Ability)
 {
 	if (AbilitySystemComponent && Ability)
 	{

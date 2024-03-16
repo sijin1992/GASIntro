@@ -1282,6 +1282,8 @@
 				"F:/MyUE/UETest/GASIntro/Content/Animations/Characters/BlendSpace/BS_Movement.uasset",
 				"F:/MyUE/UETest/GASIntro/Content/Animations/Characters/AnimBlueprint/ABP_BaseCharacter.uasset",
 				"F:/MyUE/UETest/GASIntro/Content/Animations/Characters/Montages/AM_MeleeAttack.uasset",
+				"F:/MyUE/UETest/GASIntro/Content/Blueprints/Gameplay/Abilities/GAB_BaseGameplayAbility.uasset",
+				"F:/MyUE/UETest/GASIntro/Content/Blueprints/Gameplay/Abilities/MeleeAttack/GAB_MeleeAttack.uasset",
 				"F:/MyUE/UETest/GASIntro/Content/Animations/Characters/BlendSpace/BS_Character.uasset",
 				"F:/MyUE/UETest/GASIntro/Content/Animations/Characters/AnimBlueprint/ABP_Movement.uasset",
 				"F:/MyUE/UETest/GASIntro/Content/Blueprints/Characters/BP_Player.uasset",
