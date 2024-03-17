@@ -4,6 +4,7 @@
 #include "BaseCharacter.h"
 #include "AbilitySystemComponent.h"
 #include "GASIntro/Gameplay/BaseGameplayAbility.h"
+#include "GASIntro/Gameplay/BaseAttributeSet.h"
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()
@@ -11,6 +12,8 @@ ABaseCharacter::ABaseCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>("AbilitySystemComponent");
+	AttributeSet = CreateDefaultSubobject<UBaseAttributeSet>("AttributeSet");
+
 }
 
 // Called when the game starts or when spawned

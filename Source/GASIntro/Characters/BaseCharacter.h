@@ -20,6 +20,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BaseCharacter")
 	class UAbilitySystemComponent* AbilitySystemComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BaseCharacter")
+	class UBaseAttributeSet* AttributeSet;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
